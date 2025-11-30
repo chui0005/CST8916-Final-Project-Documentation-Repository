@@ -16,7 +16,7 @@ The architecture emphasizes scalability, reliability, and real-time insight, mak
 ### Associated Repositories 
 - [Sensor Simulation Repository](https://github.com/chui0005/rideau-canal-sensor-simulation)
 - [Sensor Simulation Dashboard](https://github.com/chui0005/rideau-canal-sensor-dashboard)
-- [Link to live dashbaord]()
+- [Link to live dashbaord](https://rideau-canal-dashbaord-c9asargmgwfuehcr.canadacentral-01.azurewebsites.net/) (will be shut down after completion of project)
 
 
 ## Scenario Overview
@@ -217,7 +217,7 @@ GROUP BY
 
   - Deplyment Center
   ![app_service_deployment_center](screenshots/app_service_deployment_center.png)
-  
+
   - Environment Vars
   ![app_service_env_vars](screenshots/app_service_env_vars.png)
 
@@ -229,11 +229,31 @@ GROUP BY
 
 ## Setup Instructions
 
-Prerequisites
-High-level setup steps
-Links to detailed setup in component repos
-Results and Analysis
+Before setting up the system, the following tools and resources are required:
+
+- Local Development Tools
+  - Node.js (v18 LTS or later): Required for the web dashboard backend and frontend.
+  - Python 3.9+: Used for the IoT sensor simulation.
+  - Git: For cloning repositories.
+  - Azure CLI (optional but recommended): For managing Azure resources.
+
+- Azure Resources
+  - Azure subscription
+  - Azure IoT Hub
+  - Azure Stream Analytics job
+  - Azure Cosmos DB (SQL API)
+  - Azure Blob Storage account
+  - Azure App Service (Linux, Node.js runtime)
+
+- Steps
+  1. Clone the Repositories
+  2. Configure Azure IoT Hub
+  3. Run the IoT Sensor Simulation
+  4. Configure Azure Stream Analytics
+  5. Configure Azure Cosmos DB
+  6. Configure Azure Blob Storage
+  7. Set Up the Web Dashboard (Local)
+  8. Deploy the Dashboard to Azure App Service
 
 ## Sample outputs and screenshots
-Data analysis
-System performance observations
+- shown in Dashboard screenshots above.
