@@ -210,6 +210,23 @@ GROUP BY
 - Dashboard running locally
 ![dashboard_local](screenshots/dashboard_local.png)
 
+**Azure App Service deployment**
+- CONFIGURATION 
+  - Overall
+![app_service](screenshots/app_service_config.png)
+
+  - Deplyment Center
+  ![app_service_deployment_center](screenshots/app_service_deployment_center.png)
+  
+  - Environment Vars
+  ![app_service_env_vars](screenshots/app_service_env_vars.png)
+
+
+- DEPLOYED
+![app_service_deployed](screenshots/app_service_deployed.png)
+
+
+
 ## Setup Instructions
 
 Prerequisites
